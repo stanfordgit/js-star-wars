@@ -1,0 +1,50 @@
+body {
+  margin: 15px;
+  background: url(../images/background.png) center no-repeat fixed;
+  width: 95%;
+}
+.title-heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.elem-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.people-border,
+.film-border,
+.planet-border,
+.starship-border,
+.vehicle-border {
+  border: 1px solid grey;
+  background: rgba(233, 233, 233, 0.9);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+}
+.film-border {
+  width: 350px;
+}
+.planet-border {
+  width: 400px;
+}
+.starship-border {
+  width: 600px;
+}
+.vehicle-border {
+  width: 600px;
+}
+.elem-prop {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.btn-page {
+  display: flex;
+  justify-content: center;
+}

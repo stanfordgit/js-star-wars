@@ -1,0 +1,16 @@
+.main-navbar {
+  display: flex;
+  justify-content: center;
+}
+.btn-navbar {
+  margin: 5px;
+}
+.link-navbar {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link-navbar:visited {
+  color: black;
+  text-decoration: none;
+}
